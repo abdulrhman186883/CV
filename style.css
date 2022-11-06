@@ -1,0 +1,81 @@
+body {
+  padding: 10%;
+  font-family: Franklin Gothic Medium;
+}
+.title {
+  color: #5c6ac4;
+}
+
+.container .child {
+  min-width: 50%;
+}
+.container {
+  display: flex;
+}
+
+.container .child p {
+  max-width: 80%;
+}
+
+.profile {
+  background-color: rgb(220, 220, 220);
+  border-radius: 25px;
+}
+
+.profile p,
+h2 {
+  padding: 4%;
+
+  line-height: 1.2;
+}
+
+#job_title {
+  padding: 10px;
+  max-width: 70%;
+  background: rgb(78, 84, 200);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 84, 200, 1) 5%,
+    rgba(143, 148, 251, 1) 100%
+  );
+  color: white;
+
+  font-size: 120%;
+  border-radius: 10px;
+}
+
+.lang {
+  display: flex;
+}
+
+h2 {
+  color: rgb(69, 104, 220);
+  color: linear-gradient(
+    circle,
+    rgba(69, 104, 220, 1) 0%,
+    rgba(176, 106, 179, 1) 50%
+  );
+}
+
+.hov:hover {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+.name {
+  font-size: 400%;
+  max-width: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    padding: 5%;
+  }
+}
